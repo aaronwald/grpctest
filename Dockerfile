@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install grpcio grpcio-tools
 
 # Make port 5000 available to the world outside this container
-EXPOSE 5000
+EXPOSE 50051
 
 # Define environment variable
 ENV NAME=World
